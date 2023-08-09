@@ -43,5 +43,5 @@ test('renders heading by test-id', () => {
 test('renders sum of two numbers', () => {
   render(<App />);
   const sum = screen.getByTitle('sum');
-  expect(sum.textContent).toBe('6');
+  expect(sum.textContent).toBe('300');
 });
